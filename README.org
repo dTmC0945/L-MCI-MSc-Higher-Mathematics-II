@@ -1,0 +1,207 @@
+#+title: MSc Higher Mathematics II
+
+** Table of Contents :TOC_2:
+  - [[#lecture-information][Lecture Information]]
+  - [[#requirements-and-the-learning-outcomes][Requirements and the Learning Outcomes]]
+  - [[#grading-of-the-lecture][Grading of the Lecture]]
+  - [[#lecture-sources][Lecture Sources]]
+  - [[#content-and-unit-distribution][Content and Unit Distribution]]
+  - [[#structure-per-session][Structure per Session]]
+  - [[#documentation][Documentation]]
+  - [[#related-links][Related Links]]
+
+** Lecture Information
+
+The goal of this lecture is to improve what has been taught at  [[https://github.com/dTmC0945/L-MCI-MSc-Higher-Mathematics-I][M.Sc Higher Mathematics I]]
+and start working on engineering problem where there are more than one variable. The
+lecture will focus on mathematical concepts which will have direct usage with real life
+engineering applications.
+
+The Lecture structure for this lecture is as follows.
+
+| INDEX | DESCRIPTION        | VALUE                          | STATUS |
+|     1 | Official Name      | Höhere Mathematik 2            |        |
+|     2 | Lecture Code       | HMA                            | A      |
+|     3 | Module Code        | MECH-M-2-HMA-HMA-ILV           | A      |
+|     4 | Degree             | M.Sc                           | A      |
+|     5 | Program Name       | Mechatronik Smart Technologies | A      |
+|     6 | Lecture Name       | Higher Mathematics II          |        |
+|     7 | Semester           | 2                              | A      |
+|     8 | Season             | SS                             | A      |
+|     9 | Room Type          | Lecture Room                   |        |
+|    10 | Assignments        | Personal Assignment Final Exam | A      |
+|    11 | Lecturer           | Daniel T. McGuiness, Ph.D      |        |
+|    12 | Module Responsible | DaM                            | A      |
+|    13 | Software           | Python*                        |        |
+|    14 | Hardware           | -                              |        |
+|    15 | SWS Total          | 3                              | A      |
+|    16 | SWS Teaching       | 3                              |        |
+|    26 | ECTS               | 4                              | A      |
+|    27 | Lecture Type       | ILV                            | A      |
+
+For a detailed look at the lecture material please look at
+
+** Requirements and the Learning Outcomes
+
+The requirements and the outcome for the lecture are given as follows.
+They are shown here as table.
+
+The student should be comfortable with working with ordinary differential
+equations and have a good background in calculus. For a revision on some
+of these topics plase look at the following repos:
+
+- [[https://github.com/dTmC0945/L-MCI-MSc-Higher-Mathematics-I][M.Sc Higher Mathematics I]]  
+
+| INDEX | REQUIREMENTS          | TAUGHT LECTURE       | CODE | DEGREE | OUTCOME               |
+|     1 | Laplace Transform     | Higher Mathematics I | HMA  | M.Sc   | Fourier Analysis      |
+|     2 | Integral Calculus     | Higher Mathematics I | HMA  | M.Sc   | Solving PDEs          |
+|     3 | Vector Calculus       | Higher Mathematics I | HMA  | M.Sc   | Statistical Analysis  |
+|     4 | Differential Calculus | Higher Mathematics I | HMA  | M.Sc   | Probabilistic Methods |
+|     5 | -                     |                      |      |        | Complex Analysis      |
+
+** Grading of the Lecture
+
+The lecture will have a single personal assignment comprising of a set list of
+questions and a final exam comprising of all the topics covered in the lecture.
+    
+| ASSIGNMENT TYPE     | VALUE |
+| Personal Assignment |    40 |
+| Final Exam          |    60 |
+| SUM                 |   100 |
+
+** Lecture Sources
+
+The following are a table of documentation which are useful resources which
+goes well with the lectures.
+
+| INDEX | TITLE                                                                       | AUTHOR                  | PUBLISHER             | TYPE | LINK |
+|     1 | Thomas Calculus (12th Edition)                                              | G. B. Thomas, Jr. et.al | Pearson (2010)        | Book |      |
+|     2 | Probability: A Graduate Course                                              | A. Gut                  | Springer (2005)       | Book |      |
+|     3 | Partial Differential Equations of Mathematical Physics                      | S.L. Sobolev            | Addison Wesley (2019) | Book |      |
+|     4 | Partial Differential Equations - An Introduction                            | W. A. Strauss           | Wiley (2008)          | Book |      |
+|     5 | Probability and Statistics for Engineers & Scientists                       | R. E. Walpole, et. al   | Pearson (2012)        | Book |      |
+|     6 | Mathematical Methods in the Physical Sciences (3rd Edition)                 | M. L. Boas              | Wiley (2006)          | Book |      |
+|     7 | Mathematical Methods for Physics and Engineering (3rd Edition)              | K. F. Riley, et. al     | Cambridge (2006)      | Book |      |
+|     8 | Differential Equations with Applications and Historical Notes (3rd Edition) | G. F. Simmons           | CRC Press (2017)      | Book |      |
+|     9 | Advanced Engineering Calculus (9th Edition)                                 | E. Kreyszig             | Wiley (2011)          | Book |      |
+|    10 | Applied Statistics and Probability for Engineers (3rd Edition)              | D. C. Montgomery        | Wiley (2003)          | Book |      |
+|    11 | A Students Guide to Fourier Transform                                       | J. F. James             | Cambridge (2011)      | Book |      |
+|    12 | Mathematics of Diffusion                                                    | J. Crank                | Oxford (1975)         | Book |      |
+|    13 | Partial Differential Equations in Physics                                   | A. Sommerfeld           | Academic Press (1949) | Book |      |
+|    14 | Probability and Stochastics                                                 | E. Cinlar               | Springer (2010)       | Book |      |
+|    14 | Random Walks in Biology                                                     | H. C. Berg              | Princeton (1983)      | Book |      |
+
+** Content and Unit Distribution
+
+| ORDER | TOPIC                            | UNITS | SELF STUDY |
+|     1 | Theory of Probability            |    12 |         24 |
+|     2 | Fourier Analysis                 |    12 |         24 |
+|     3 | Partial Differential Equations   |    12 |         24 |
+|     4 | Complex Numbers and Calculations |     9 |         18 |
+|     5 | SUM                              |    45 |         90 |
+
+** Structure per Session
+
+The structure of Higher Mathematics II can be grouped into three (3) parts:
+
+  1. Probability and Statistics
+  2. Fourier Analysis and Partial Differential Equations
+  3. Complex Analysis
+
+Below is the detailed structure of the lecture.
+  
+- Theory of Probability
+  - Introduction
+  - Experiments \& Outcomes
+    - Unions, Intersections, and Complements of Events
+  - Probability
+  - Permutations \& Combinations
+    - Permutations
+    - Combinations
+    - Factorial Function
+    - Binomial Coefficients
+  - Random Variables and Probability Distributions
+    - Discrete Random Variables and Distributions
+    - Continuous Random Variables and Distributions
+  - Mean and Variance of a Distribution
+      - Symmetry
+  - Binomial, Poisson, and Hypergeometric Distributions
+    - Sampling with Replacement
+    - Sampling without Replacement: Hypergeometrc Distribution
+    - Normal Distribution
+    - Distribution Function
+    - Numeric Values
+    - Normal Approximation of the Binomial Distribution
+  - Distribution of Several Random Variables
+    - Discrete Two-Dimensional Distribution
+    - Continuous Two-Dimensional Distribution
+    - Marginal Distributions of a Discrete Distribution
+    - Independence of Random Variables
+    - Functions of Random Variables
+    - Addition of Means
+    - Addition of Variances
+- Fourier Analysis
+  - Fourier Series
+    - An Example
+    - Derivation of the Euler Formulas (6)
+    - Application of Theorem to the Fourier Series
+    - Convergence and Sum of a Fourier Series
+  - Functions with Arbitrary Periods
+    - From Period $2\pi$ to Any Period $\p=2\L$
+  - Approximation by Trigonometric Polynomials
+  - Orthogonal Functions
+      - Orthogonal Functions
+  - Generalised Fourier Series
+  - Fourier Transform: Discrete and Fast
+    - Complex Form of the Fourier Integral
+- Partial Differential Equations
+  - Introduction
+  - Basic Concepts
+  - Vibrating String - The Wave Equation
+    - Deriving the Model From Forces
+  - Separation of Variables
+    - Solving the Wave Equation - D'Alembert's Solution
+    - Modelling the Heat Equation
+    - Solving the Heat Equation
+    - Laplaces Equation
+  - Heat Conduction in Long Bars
+    - Use of Fourier Integrals
+    - Use of Fourier Transforms
+  - Modelling a Membrane: 2D Wave Equation
+  - Rectangular Membrane: Using Double Fourier Series
+  - Laplacian in Polar Coordinates
+    - Step 1
+    - Part 3
+  - Laplacian in Spherical \& Cylindrical Coordinates
+    - Laplacian in Cylindrical Coordinates
+    - Laplacian in Spherical Coordinates
+    - Boundary Value Problem in Spherical Coordinates
+    - Use of Fourier-Legendre Series
+  - Solutions of PDE using Laplace Transform
+- Complex Numbers and Calculations
+  - Introduction
+  - Complex Numbers and Their Geometric Representation
+    - Arithmetic with Complex Numbers
+    - Subtraction and Division
+    - Complex Plane
+    - Complex Conjugate Numbers
+  - Complex Numbers in Polar Form
+    - Multiplication and Division
+      - Roots
+  - Analytic Function
+    - Circles, Disk, and Half-Planes
+      - Limit and Continuity
+      - Derivative
+    - Analytic Functions
+  - Cauchy-Riemann Equations
+    - Laplace's Equation
+    - Harmonic Functions
+  - Exponential Function
+
+** Documentation
+
+For any student in need of a LaTex class designed from the ground-up for
+assignment/thesis/slide for MCI needs please have a look at ~mcidoc~ class
+hosted at [[https://github.com/dTmC0945/C-MCI-LaTeX-Class-mcidoc][GitHub]].
+
+(-DTMc 2025)
