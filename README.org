@@ -19,25 +19,25 @@ engineering applications.
 
 The Lecture structure for this lecture is as follows.
 
-| INDEX | DESCRIPTION        | VALUE                          | STATUS |
-|     1 | Official Name      | Höhere Mathematik 2            |        |
-|     2 | Lecture Code       | HMA                            | A      |
-|     3 | Module Code        | MECH-M-2-HMA-HMA-ILV           | A      |
-|     4 | Degree             | M.Sc                           | A      |
-|     5 | Program Name       | Mechatronik Smart Technologies | A      |
-|     6 | Lecture Name       | Higher Mathematics II          |        |
-|     7 | Semester           | 2                              | A      |
-|     8 | Season             | SS                             | A      |
-|     9 | Room Type          | Lecture Room                   |        |
-|    10 | Assignments        | Personal Assignment Final Exam | A      |
-|    11 | Lecturer           | Daniel T. McGuiness, Ph.D      |        |
-|    12 | Module Responsible | DaM                            | A      |
-|    13 | Software           | Python*                        |        |
-|    14 | Hardware           | -                              |        |
-|    15 | SWS Total          | 3                              | A      |
-|    16 | SWS Teaching       | 3                              |        |
-|    26 | ECTS               | 4                              | A      |
-|    27 | Lecture Type       | ILV                            | A      |
+| DESCRIPTION        | VALUE                          |
+| Official Name      | Höhere Mathematik 2            |
+| Lecture Code       | HMA                            |
+| Module Code        | MECH-M-2-HMA-HMA-ILV           |
+| Degree             | M.Sc                           |
+| Program Name       | Mechatronik Smart Technologies |
+| Lecture Name       | Higher Mathematics II          |
+| Semester           | 2                              |
+| Season             | SS                             |
+| Room Type          | Lecture Room                   |
+| Assignments        | Personal Assignment Final Exam |
+| Lecturer           | Daniel T. McGuiness, Ph.D      |
+| Module Responsible | DaM                            |
+| Software           | Python*                        |
+| Hardware           | -                              |
+| SWS Total          | 3                              |
+| SWS Teaching       | 3                              |
+| ECTS               | 4                              |
+| Lecture Type       | ILV                            |
 
 For a detailed look at the lecture material please look at
 
@@ -52,12 +52,12 @@ of these topics plase look at the following repos:
 
 - [[https://github.com/dTmC0945/L-MCI-MSc-Higher-Mathematics-I][M.Sc Higher Mathematics I]]  
 
-| INDEX | REQUIREMENTS          | TAUGHT LECTURE       | CODE | DEGREE | OUTCOME               |
-|     1 | Laplace Transform     | Higher Mathematics I | HMA  | M.Sc   | Fourier Analysis      |
-|     2 | Integral Calculus     | Higher Mathematics I | HMA  | M.Sc   | Solving PDEs          |
-|     3 | Vector Calculus       | Higher Mathematics I | HMA  | M.Sc   | Statistical Analysis  |
-|     4 | Differential Calculus | Higher Mathematics I | HMA  | M.Sc   | Probabilistic Methods |
-|     5 | -                     |                      |      |        | Complex Analysis      |
+| REQUIREMENTS          | TAUGHT LECTURE       | CODE | DEGREE | OUTCOME               |
+| Laplace Transform     | Higher Mathematics I | HMA  | M.Sc   | Fourier Analysis      |
+| Integral Calculus     | Higher Mathematics I | HMA  | M.Sc   | Solving PDEs          |
+| Vector Calculus       | Higher Mathematics I | HMA  | M.Sc   | Statistical Analysis  |
+| Differential Calculus | Higher Mathematics I | HMA  | M.Sc   | Probabilistic Methods |
+| -                     |                      |      |        | Complex Analysis      |
 
 ** Grading of the Lecture
 
@@ -74,31 +74,31 @@ questions and a final exam comprising of all the topics covered in the lecture.
 The following are a table of documentation which are useful resources which
 goes well with the lectures.
 
-| INDEX | TITLE                                                                       | AUTHOR                  | PUBLISHER             | TYPE | LINK |
-|     1 | Thomas Calculus (12th Edition)                                              | G. B. Thomas, Jr. et.al | Pearson (2010)        | Book |      |
-|     2 | Probability: A Graduate Course                                              | A. Gut                  | Springer (2005)       | Book |      |
-|     3 | Partial Differential Equations of Mathematical Physics                      | S.L. Sobolev            | Addison Wesley (2019) | Book |      |
-|     4 | Partial Differential Equations - An Introduction                            | W. A. Strauss           | Wiley (2008)          | Book |      |
-|     5 | Probability and Statistics for Engineers & Scientists                       | R. E. Walpole, et. al   | Pearson (2012)        | Book |      |
-|     6 | Mathematical Methods in the Physical Sciences (3rd Edition)                 | M. L. Boas              | Wiley (2006)          | Book |      |
-|     7 | Mathematical Methods for Physics and Engineering (3rd Edition)              | K. F. Riley, et. al     | Cambridge (2006)      | Book |      |
-|     8 | Differential Equations with Applications and Historical Notes (3rd Edition) | G. F. Simmons           | CRC Press (2017)      | Book |      |
-|     9 | Advanced Engineering Calculus (9th Edition)                                 | E. Kreyszig             | Wiley (2011)          | Book |      |
-|    10 | Applied Statistics and Probability for Engineers (3rd Edition)              | D. C. Montgomery        | Wiley (2003)          | Book |      |
-|    11 | A Students Guide to Fourier Transform                                       | J. F. James             | Cambridge (2011)      | Book |      |
-|    12 | Mathematics of Diffusion                                                    | J. Crank                | Oxford (1975)         | Book |      |
-|    13 | Partial Differential Equations in Physics                                   | A. Sommerfeld           | Academic Press (1949) | Book |      |
-|    14 | Probability and Stochastics                                                 | E. Cinlar               | Springer (2010)       | Book |      |
-|    14 | Random Walks in Biology                                                     | H. C. Berg              | Princeton (1983)      | Book |      |
+| TITLE                                                                       | AUTHOR                  | PUBLISHER             |
+| Thomas Calculus (12th Edition)                                              | G. B. Thomas, Jr. et.al | Pearson (2010)        |
+| Probability: A Graduate Course                                              | A. Gut                  | Springer (2005)       |
+| Partial Differential Equations of Mathematical Physics                      | S.L. Sobolev            | Addison Wesley (2019) |
+| Partial Differential Equations - An Introduction                            | W. A. Strauss           | Wiley (2008)          |
+| Probability and Statistics for Engineers & Scientists                       | R. E. Walpole, et. al   | Pearson (2012)        |
+| Mathematical Methods in the Physical Sciences (3rd Edition)                 | M. L. Boas              | Wiley (2006)          |
+| Mathematical Methods for Physics and Engineering (3rd Edition)              | K. F. Riley, et. al     | Cambridge (2006)      |
+| Differential Equations with Applications and Historical Notes (3rd Edition) | G. F. Simmons           | CRC Press (2017)      |
+| Advanced Engineering Calculus (9th Edition)                                 | E. Kreyszig             | Wiley (2011)          |
+| Applied Statistics and Probability for Engineers (3rd Edition)              | D. C. Montgomery        | Wiley (2003)          |
+| A Students Guide to Fourier Transform                                       | J. F. James             | Cambridge (2011)      |
+| Mathematics of Diffusion                                                    | J. Crank                | Oxford (1975)         |
+| Partial Differential Equations in Physics                                   | A. Sommerfeld           | Academic Press (1949) |
+| Probability and Stochastics                                                 | E. Cinlar               | Springer (2010)       |
+| Random Walks in Biology                                                     | H. C. Berg              | Princeton (1983)      |
 
 ** Content and Unit Distribution
 
-| ORDER | TOPIC                            | UNITS | SELF STUDY |
-|     1 | Theory of Probability            |    12 |         24 |
-|     2 | Fourier Analysis                 |    12 |         24 |
-|     3 | Partial Differential Equations   |    12 |         24 |
-|     4 | Complex Numbers and Calculations |     9 |         18 |
-|     5 | SUM                              |    45 |         90 |
+| TOPIC                            | UNITS | SELF STUDY |
+| Theory of Probability            |    12 |         24 |
+| Fourier Analysis                 |    12 |         24 |
+| Partial Differential Equations   |    12 |         24 |
+| Complex Numbers and Calculations |     9 |         18 |
+| SUM                              |    45 |         90 |
 
 ** Structure per Session
 
@@ -112,10 +112,10 @@ Below is the detailed structure of the lecture.
   
 - Theory of Probability
   - Introduction
-  - Experiments \& Outcomes
+  - Experiments & Outcomes
     - Unions, Intersections, and Complements of Events
   - Probability
-  - Permutations \& Combinations
+  - Permutations & Combinations
     - Permutations
     - Combinations
     - Factorial Function
@@ -143,11 +143,11 @@ Below is the detailed structure of the lecture.
 - Fourier Analysis
   - Fourier Series
     - An Example
-    - Derivation of the Euler Formulas (6)
+    - Derivation of the Euler Formulas 
     - Application of Theorem to the Fourier Series
     - Convergence and Sum of a Fourier Series
   - Functions with Arbitrary Periods
-    - From Period $2\pi$ to Any Period $\p=2\L$
+    - From Period $2\pi$ to Any Period $p=2L$
   - Approximation by Trigonometric Polynomials
   - Orthogonal Functions
       - Orthogonal Functions
@@ -172,7 +172,7 @@ Below is the detailed structure of the lecture.
   - Laplacian in Polar Coordinates
     - Step 1
     - Part 3
-  - Laplacian in Spherical \& Cylindrical Coordinates
+  - Laplacian in Spherical & Cylindrical Coordinates
     - Laplacian in Cylindrical Coordinates
     - Laplacian in Spherical Coordinates
     - Boundary Value Problem in Spherical Coordinates
