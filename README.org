@@ -39,8 +39,6 @@ The Lecture structure for this lecture is as follows.
 | ECTS               | 4                              |
 | Lecture Type       | ILV                            |
 
-For a detailed look at the lecture material please look at
-
 ** Requirements and the Learning Outcomes
 
 The requirements and the outcome for the lecture are given as follows.
