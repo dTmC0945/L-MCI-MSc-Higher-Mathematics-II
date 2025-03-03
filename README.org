@@ -71,22 +71,22 @@ The structure for this lecture is as follows.
 The following are a table of documentation which are useful resources which
 goes well with the lectures.
 
-| TITLE                                                                       | AUTHOR                  | PUBLISHER             |
-| Thomas Calculus (12th Edition)                                              | G. B. Thomas, Jr. et.al | Pearson (2010)        |
-| Probability: A Graduate Course                                              | A. Gut                  | Springer (2005)       |
-| Partial Differential Equations of Mathematical Physics                      | S.L. Sobolev            | Addison Wesley (2019) |
-| Partial Differential Equations - An Introduction                            | W. A. Strauss           | Wiley (2008)          |
-| Probability and Statistics for Engineers & Scientists                       | R. E. Walpole, et. al   | Pearson (2012)        |
-| Mathematical Methods in the Physical Sciences (3rd Edition)                 | M. L. Boas              | Wiley (2006)          |
-| Mathematical Methods for Physics and Engineering (3rd Edition)              | K. F. Riley, et. al     | Cambridge (2006)      |
-| Differential Equations with Applications and Historical Notes (3rd Edition) | G. F. Simmons           | CRC Press (2017)      |
-| Advanced Engineering Calculus (9th Edition)                                 | E. Kreyszig             | Wiley (2011)          |
-| Applied Statistics and Probability for Engineers (3rd Edition)              | D. C. Montgomery        | Wiley (2003)          |
-| A Students Guide to Fourier Transform                                       | J. F. James             | Cambridge (2011)      |
-| Mathematics of Diffusion                                                    | J. Crank                | Oxford (1975)         |
-| Partial Differential Equations in Physics                                   | A. Sommerfeld           | Academic Press (1949) |
-| Probability and Stochastics                                                 | E. Cinlar               | Springer (2010)       |
-| Random Walks in Biology                                                     | H. C. Berg              | Princeton (1983)      |
+| AUTHOR                  | TITLE                                                                       | PUBLISHER             |
+| G. B. Thomas, Jr. et.al | Thomas Calculus (12th Edition)                                              | Pearson (2010)        |
+| A. Gut                  | Probability: A Graduate Course                                              | Springer (2005)       |
+| S.L. Sobolev            | Partial Differential Equations of Mathematical Physics                      | Addison Wesley (2019) |
+| W. A. Strauss           | Partial Differential Equations - An Introduction                            | Wiley (2008)          |
+| R. E. Walpole, et. al   | Probability and Statistics for Engineers & Scientists                       | Pearson (2012)        |
+| M. L. Boas              | Mathematical Methods in the Physical Sciences (3rd Edition)                 | Wiley (2006)          |
+| K. F. Riley, et. al     | Mathematical Methods for Physics and Engineering (3rd Edition)              | Cambridge (2006)      |
+| G. F. Simmons           | Differential Equations with Applications and Historical Notes (3rd Edition) | CRC Press (2017)      |
+| E. Kreyszig             | Advanced Engineering Calculus (9th Edition)                                 | Wiley (2011)          |
+| D. C. Montgomery        | Applied Statistics and Probability for Engineers (3rd Edition)              | Wiley (2003)          |
+| J. F. James             | A Students Guide to Fourier Transform                                       | Cambridge (2011)      |
+| J. Crank                | Mathematics of Diffusion                                                    | Oxford (1975)         |
+| A. Sommerfeld           | Partial Differential Equations in Physics                                   | Academic Press (1949) |
+| E. Cinlar               | Probability and Stochastics                                                 | Springer (2010)       |
+| H. C. Berg              | Random Walks in Biology                                                     | Princeton (1983)      |
 
 ** Content and Unit Distribution
 
