@@ -58,9 +58,13 @@ The structure for this lecture is as follows.
 
 ** Grading of the Lecture
 
+    
 - The lecture will have a single personal assignment comprising of a set list of
   questions and a final exam comprising of all the topics covered in the lecture.
-    
+
+- For the written exam you are allowed to write your own equation reference paper, as
+  long as it is a single sheet of A4, double sided and contains no exercise or solutions.  
+  
 | ASSIGNMENT TYPE     | VALUE |
 | Personal Assignment |    40 |
 | Final Exam          |    60 |
