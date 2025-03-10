@@ -7,7 +7,6 @@
   - [[#lecture-sources][Lecture Sources]]
   - [[#content-and-unit-distribution][Content and Unit Distribution]]
   - [[#structure-per-session][Structure per Session]]
-  - [[#documentation][Documentation]]
   - [[#related-links][Related Links]]
 
 ** Lecture Information
@@ -97,21 +96,32 @@ goes well with the lectures.
 - The content and unit distribution of the lecture is as follows where a unit
   is defined as 45 min lecture.
     
-| TOPIC                            | UNITS | SELF STUDY |
-| Theory of Probability            |    12 |         24 |
-| Fourier Analysis                 |    12 |         24 |
-| Partial Differential Equations   |    12 |         24 |
-| Complex Numbers and Calculations |     9 |         18 |
-| SUM                              |    45 |         90 |
+| TOPIC                                | UNITS | SELF STUDY |
+| Theory of Probability - I            |     4 |          8 |
+| Theory of Probability - II           |     4 |          8 |
+| Theory of Probability - III          |     2 |          4 |
+| Statistical Methods - I              |     4 |          8 |
+| Statistical Methods - II             |     4 |          8 |
+| Statistical Methods - III            |     2 |          4 |
+| Fourier Analysis - I                 |     4 |          8 |
+| Fourier Analysis - II                |     4 |          8 |
+| Fourier Analysis - III               |     2 |          4 |
+| Partial Differential Equations - I   |     4 |          8 |
+| Partial Differential Equations - II  |     4 |          8 |
+| Partial Differential Equations - III |     4 |          8 |
+| Final Exam                           |     3 |          6 |
+| SUM                                  |    45 |         90 |
 
 ** Structure per Session
 
 The structure of Higher Mathematics II can be
-grouped into three (3) parts:
+grouped into five (5) parts:
 
-1. Probability and Statistics
-2. Fourier Analysis and Partial Differential Equations
-3. Complex Analysis
+1. Probability
+2. Statistics
+3. Fourier Analysis
+4. Partial Differential Equations
+5. Complex Analysis
 
 Below is the detailed structure of the lecture.
   
@@ -130,10 +140,11 @@ Below is the detailed structure of the lecture.
     - Continuous Random Variables and Distributions
   - Mean and Variance of a Distribution
       - Symmetry
-  - Binomial, Poisson, and Hypergeometric Distributions
+  - Binomial, Poisson, and Hyper-geometric Distributions
     - Sampling with Replacement
-    - Sampling without Replacement: Hypergeometrc Distribution
-    - Normal Distribution
+    - Sampling without Replacement: Hyper-geometric Distribution
+- -->
+  - Normal Distribution
     - Distribution Function
     - Numeric Values
     - Normal Approximation of the Binomial Distribution
@@ -141,72 +152,37 @@ Below is the detailed structure of the lecture.
     - Discrete Two-Dimensional Distribution
     - Continuous Two-Dimensional Distribution
     - Marginal Distributions of a Discrete Distribution
+    - Marginal Distributions of a Continuous Distribution
     - Independence of Random Variables
     - Functions of Random Variables
     - Addition of Means
     - Addition of Variances
-- Fourier Analysis
-  - Fourier Series
-    - An Example
-    - Derivation of the Euler Formulas 
-    - Application of Theorem to the Fourier Series
-    - Convergence and Sum of a Fourier Series
-  - Functions with Arbitrary Periods
-    - From Period $2\pi$ to Any Period $p=2L$
-  - Approximation by Trigonometric Polynomials
-  - Orthogonal Functions
-      - Orthogonal Functions
-  - Generalised Fourier Series
-  - Fourier Transform: Discrete and Fast
-    - Complex Form of the Fourier Integral
-- Partial Differential Equations
+- Statistical Methods
   - Introduction
-  - Basic Concepts
-  - Vibrating String - The Wave Equation
-    - Deriving the Model From Forces
-  - Separation of Variables
-    - Solving the Wave Equation - D'Alembert's Solution
-    - Modelling the Heat Equation
-    - Solving the Heat Equation
-    - Laplaces Equation
-  - Heat Conduction in Long Bars
-    - Use of Fourier Integrals
-    - Use of Fourier Transforms
-  - Modelling a Membrane: 2D Wave Equation
-  - Rectangular Membrane: Using Double Fourier Series
-  - Laplacian in Polar Coordinates
-    - Step 1
-    - Part 3
-  - Laplacian in Spherical & Cylindrical Coordinates
-    - Laplacian in Cylindrical Coordinates
-    - Laplacian in Spherical Coordinates
-    - Boundary Value Problem in Spherical Coordinates
-    - Use of Fourier-Legendre Series
-  - Solutions of PDE using Laplace Transform
-- Complex Numbers and Calculations
-  - Introduction
-  - Complex Numbers and Their Geometric Representation
-    - Arithmetic with Complex Numbers
-    - Subtraction and Division
-    - Complex Plane
-    - Complex Conjugate Numbers
-  - Complex Numbers in Polar Form
-    - Multiplication and Division
-      - Roots
-  - Analytic Function
-    - Circles, Disk, and Half-Planes
-      - Limit and Continuity
-      - Derivative
-    - Analytic Functions
-  - Cauchy-Riemann Equations
-    - Laplace's Equation
-    - Harmonic Functions
-  - Exponential Function
-
-** Documentation
-
-For any student in need of a LaTeX class designed from the ground-up for
-assignment/lab/thesis/slide for MCI needs please have a look at ~mcidoc~ class
-hosted at [[https://github.com/dTmC0945/C-MCI-LaTeX-Class-mcidoc][GitHub]].
+  - Point Estimation of Parameters
+    - Maximum Likelihood Method
+  - Confidence Intervals
+    - Confidence Interval for $mu$ with known $gsigma[][2]$ in Normal Distribution
+    - Confidence Interval for $mu$ of the Normal Distribution with Unknown $sigma^2$
+    - Confidence Interval for the Variance of the Normal Distribution
+    - Confidence Internals for Parameters of Other Distributions
+  - Testing of Hypotheses and Making Decisions
+      - One-Sided and Two-Sided Alternatives
+    - Errors in Tests
+    - Test for mean of Normal Distribution with Known Variance
+    - Test for Mean when Variance is Unknown and for Variance
+    - Comparison of Means and Variances
+  - Quality Control
+    - Control Chart for the Mean
+    - Control Chart for the Variance
+    - Control Chart for the Standard Deviation
+    - Control Chart for the Range
+  - Acceptance Sampling
+    - Errors in Acceptance Sampling
+    - Rectification
+  - Goodness of Fit
+  - Nonparametric Tests
+  - Regression and Correlation
+    - Regression Analysis
 
 (-DTMc 2025)
