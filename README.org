@@ -7,6 +7,7 @@
   - [[#lecture-sources][Lecture Sources]]
   - [[#content-and-unit-distribution][Content and Unit Distribution]]
   - [[#structure-per-session][Structure per Session]]
+  - [[#documentation][Documentation]]
   - [[#related-links][Related Links]]
 
 ** Lecture Information
@@ -31,7 +32,7 @@ The structure for this lecture is as follows.
 | Assignments        | Personal Assignment Final Exam |
 | Lecturer           | Daniel T. McGuiness, Ph.D      |
 | Module Responsible | DaM                            |
-| Software           | Python*                        |
+| Software           | Python                         |
 | Hardware           | -                              |
 | SWS Total          | 3                              |
 | SWS Teaching       | 3                              |
@@ -96,21 +97,21 @@ goes well with the lectures.
 - The content and unit distribution of the lecture is as follows where a unit
   is defined as 45 min lecture.
     
-| TOPIC                                | UNITS | SELF STUDY |
-| Theory of Probability - I            |     4 |          8 |
-| Theory of Probability - II           |     4 |          8 |
-| Theory of Probability - III          |     2 |          4 |
-| Statistical Methods - I              |     4 |          8 |
-| Statistical Methods - II             |     4 |          8 |
-| Statistical Methods - III            |     2 |          4 |
-| Fourier Analysis - I                 |     4 |          8 |
-| Fourier Analysis - II                |     4 |          8 |
-| Fourier Analysis - III               |     2 |          4 |
-| Partial Differential Equations - I   |     4 |          8 |
-| Partial Differential Equations - II  |     4 |          8 |
-| Partial Differential Equations - III |     4 |          8 |
-| Final Exam                           |     3 |          6 |
-| SUM                                  |    45 |         90 |
+| ORDER | TOPIC                                | UNITS | SELF STUDY |
+|     1 | Theory of Probability - I            |     4 |          8 |
+|     2 | Theory of Probability - II           |     4 |          8 |
+|     3 | Theory of Probability - III          |     2 |          4 |
+|     4 | Statistical Methods - I              |     4 |          8 |
+|     5 | Statistical Methods - II             |     4 |          8 |
+|     6 | Statistical Methods - III            |     2 |          4 |
+|     7 | Fourier Analysis - I                 |     4 |          8 |
+|     8 | Fourier Analysis - II                |     4 |          8 |
+|     9 | Fourier Analysis - III               |     2 |          4 |
+|    10 | Partial Differential Equations - I   |     4 |          8 |
+|    11 | Partial Differential Equations - II  |     4 |          8 |
+|    12 | Partial Differential Equations - III |     4 |          8 |
+|    13 | Final Exam                           |     3 |          6 |
+|    14 | SUM                                  |    45 |         90 |
 
 ** Structure per Session
 
@@ -143,7 +144,6 @@ Below is the detailed structure of the lecture.
   - Binomial, Poisson, and Hyper-geometric Distributions
     - Sampling with Replacement
     - Sampling without Replacement: Hyper-geometric Distribution
-- -->
   - Normal Distribution
     - Distribution Function
     - Numeric Values
@@ -184,5 +184,11 @@ Below is the detailed structure of the lecture.
   - Nonparametric Tests
   - Regression and Correlation
     - Regression Analysis
+
+** Documentation
+
+For any student in need of a LaTex class designed from the ground-up for
+assignment/lab/thesis/slide for MCI needs please have a look at ~mcidoc~ class
+hosted at [[https://github.com/dTmC0945/C-MCI-LaTeX-Class-mcidoc][GitHub]].
 
 (-DTMc 2025)
