@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html lang="en-US" xml:lang="en-US" > 
+<head>
+<title></title> 
+<meta  charset="utf-8" /> 
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1" /> 
+<link rel="stylesheet" type="text/css" href="HigherMathematicsIILectureBook.css" /> 
+<meta name="src" content="HigherMathematicsIILectureBook.tex" /> 
+ <script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js"></script>  
+ <link rel="stylesheet" type="text/css" href="flatweb.css"> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+ <script src="flatjs.js"></script> <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.3.1/styles/atom-one-dark.min.css" /> 
+ <script src="https://unpkg.com/@highlightjs/cdn-assets@11.3.1/highlight.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cpp.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/makefile.min.js"></script> 
+ </script><script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script> 
+ <link rel="stylesheet" href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css"/> 
+ <script src="flatjs.js"></script> <header> 
+ </header> 
+ </head><body 
+>
+<div class="page"><article class="chapter">
+<!--l. 2--><p class="noindent" >                                                                                
+                                                                                
+</p><!--l. 4--><p class="noindent" ><span 
+class="ec-lmr-7">(2025, D. T. McGuines, Ph.D) </span><br 
+class="newline" />
+</p><!--l. 8--><p class="noindent" ><span 
+class="ec-lmr-7">Current version is 2025.SS. </span><br 
+class="newline" />
+</p><!--l. 10--><p class="noindent" ><span 
+class="ec-lmr-7">This document includes the contents of Higher Mathematics II, official name being </span><italic>Höhere Mathematik 2</italic><span 
+class="ec-lmr-7">, taught at MCI in the</span>
+<span 
+class="ec-lmr-7">Mechatronik Smart Technologies. This document is the part of the module MECH-M-2-HMA-HMA-ILV taught in the M.Sc</span>
+<span 
+class="ec-lmr-7">degree. </span><br 
+class="newline" />
+</p><!--l. 16--><p class="noindent" ><span 
+class="ec-lmr-7">All relevant code of the document is done using </span><italic>SageMath</italic> <span 
+class="ec-lmr-7">where stated using v10.3 and Python v3.13.1. </span><br 
+class="newline" />
+</p><!--l. 20--><p class="noindent" ><span 
+class="ec-lmr-7">This document was compiled with LuaTeX v1.18.0, and all editing were done using GNU Emacs v29.4 using AUCTeX and</span>
+<span 
+class="ec-lmr-7">org-mode package. </span><br 
+class="newline" />
+</p><!--l. 25--><p class="noindent" ><span 
+class="ec-lmr-7">This document is based on the books and resources: </span><italic> G. B. Thomas, Jr. et.al </italic> <span 
+class="ec-lmr-7">by Thomas Calculus (12th Edition) , Pearson</span>
+<span 
+class="ec-lmr-7">(2010) </span><italic> A. Gut </italic> <span 
+class="ec-lmr-7">by Probability: A Graduate Course , Springer (2005) </span><italic> S.L. Sobolev </italic> <span 
+class="ec-lmr-7">by Partial Differential Equations of</span>
+<span 
+class="ec-lmr-7">Mathematical Physics , Addison Wesley (2019) </span><italic> W. A. Strauss </italic> <span 
+class="ec-lmr-7">by Partial Differential Equations - An Introduction , Wiley</span>
+<span 
+class="ec-lmr-7">(2008) </span><italic> R. E. Walpole, et. al </italic> <span 
+class="ec-lmr-7">by Probability and Statistics for Engineers &#x0026; Scientists , Pearson (2012) </span><italic> M. L. Boas </italic> <span 
+class="ec-lmr-7">by</span>
+<span 
+class="ec-lmr-7">Mathematical Methods in the Physical Sciences (3rd Edition) , Wiley (2006) </span><italic> K. F. Riley, et. al </italic> <span 
+class="ec-lmr-7">by Mathematical Methods for</span>
+<span 
+class="ec-lmr-7">Physics and Engineering (3rd Edition) , Cambridge (2006) </span><italic> G. F. Simmons </italic> <span 
+class="ec-lmr-7">by Differential Equations with Applications and</span>
+<span 
+class="ec-lmr-7">Historical Notes (3rd Edition) , CRC Press (2017) </span><italic> E. Kreyszig </italic> <span 
+class="ec-lmr-7">by Advanced Engineering Calculus (9th Edition) , Wiley (2011) </span><italic>
+D. C. Montgomery </italic> <span 
+class="ec-lmr-7">by Applied Statistics and Probability for Engineers (3rd Edition) , Wiley (2003) </span><italic> J. F.
+James </italic> <span 
+class="ec-lmr-7">by A Students Guide to Fourier Transform , Cambridge (2011) </span><italic> J. Crank </italic> <span 
+class="ec-lmr-7">by Mathematics of Diffusion ,</span>
+<span 
+class="ec-lmr-7">Oxford (1975) </span><italic> A. Sommerfeld </italic> <span 
+class="ec-lmr-7">by Partial Differential Equations in Physics , Academic Press (1949) </span><italic> E. Cinlar </italic>
+<span 
+class="ec-lmr-7">by Probability and Stochastics , Springer (2010) </span><italic> H. C. Berg </italic> <span 
+class="ec-lmr-7">by Random Walks in Biology , Princeton (1983)</span>
+<br 
+class="newline" /><br 
+class="newline" /><br 
+class="newline" /><span 
+class="ec-lmr-7">The current maintainer of this work along with the primary lecturer </span><br 
+class="newline" /><span 
+class="ec-lmr-7">is D. T. McGuines, Ph.D.  (dtm@mci4me.at).</span> </p></article></div>
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+<!--l. 35--><p class="noindent" >
+                                                                                
+                                                                                
+</p><!--l. 35--><p class="noindent" ><a 
+ id="chapter*.1"></a>
+</p>
+<div class="tableofcontents">
+<span class="chapterToc" >1 <a 
+href="HigherMathematicsIILectureBookch1.html#x3-20001" id="QQ2-3-2">Theory of Probability</a></span>
+<br /><span class="sectionToc" >1.1  <a 
+href="HigherMathematicsIILectureBookch1.html#x3-30001.1" id="QQ2-3-3">Introduction</a></span>
+<br /><span class="sectionToc" >1.2  <a 
+href="HigherMathematicsIILectureBookch1.html#x3-80001.2" id="QQ2-3-9">Experiments &#x0026; Outcomes</a></span>
+<br /><span class="sectionToc" >1.3  <a 
+href="HigherMathematicsIILectureBookch1.html#x3-90001.3" id="QQ2-3-10">Probability</a></span>
+<br /><span class="sectionToc" >1.4  <a 
+href="HigherMathematicsIILectureBookch1.html#x3-150001.4" id="QQ2-3-16">Permutations &#x0026; Combinations</a></span>
+<br /><span class="sectionToc" >1.5  <a 
+href="HigherMathematicsIILectureBookch1.html#x3-220001.5" id="QQ2-3-24">Random Variables and Probability Distributions</a></span>
+<br /><span class="sectionToc" >1.6  <a 
+href="HigherMathematicsIILectureBookch1.html#x3-250001.6" id="QQ2-3-28">Mean and Variance of a Distribution</a></span>
+<br /><span class="sectionToc" >1.7  <a 
+href="HigherMathematicsIILectureBookch1.html#x3-290001.7" id="QQ2-3-32">Binomial, Poisson, and Hyper-geometric Distributions</a></span>
+<br /><span class="sectionToc" >1.8  <a 
+href="HigherMathematicsIILectureBookch1.html#x3-340001.8" id="QQ2-3-40">Normal Distribution</a></span>
+<br /><span class="sectionToc" >1.9  <a 
+href="HigherMathematicsIILectureBookch1.html#x3-380001.9" id="QQ2-3-46">Distribution of Several Random Variables</a></span>
+<br /><span class="chapterToc" >2 <a 
+href="HigherMathematicsIILectureBookch2.html#x4-480002" id="QQ2-4-57">Statistical Methods</a></span>
+<br /><span class="sectionToc" >2.1  <a 
+href="HigherMathematicsIILectureBookch2.html#x4-490002.1" id="QQ2-4-58">Introduction</a></span>
+<br /><span class="sectionToc" >2.2  <a 
+href="HigherMathematicsIILectureBookch2.html#x4-500002.2" id="QQ2-4-60">Point Estimation of Parameters</a></span>
+<br /><span class="sectionToc" >2.3  <a 
+href="HigherMathematicsIILectureBookch2.html#x4-540002.3" id="QQ2-4-64">Confidence Intervals</a></span>
+<br /><span class="sectionToc" >2.4  <a 
+href="HigherMathematicsIILectureBookch2.html#x4-580002.4" id="QQ2-4-71">Testing of Hypotheses and Making Decisions</a></span>
+<br /><span class="sectionToc" >2.5  <a 
+href="HigherMathematicsIILectureBookch2.html#x4-630002.5" id="QQ2-4-79">Goodness of Fit</a></span>
+<br /><span class="sectionToc" >2.6  <a 
+href="HigherMathematicsIILectureBookch2.html#x4-640002.6" id="QQ2-4-80">Regression and Correlation</a></span>
+<br /><span class="sectionToc" >2.7  <a 
+href="HigherMathematicsIILectureBookch2.html#x4-690002.7" id="QQ2-4-88">Bayesian Statistics</a></span>
+<br /><span class="chapterToc" >3 <a 
+href="HigherMathematicsIILectureBookch3.html#x5-710003" id="QQ2-5-90">Fourier Analysis</a></span>
+<br /><span class="sectionToc" >3.1  <a 
+href="HigherMathematicsIILectureBookch3.html#x5-720003.1" id="QQ2-5-91">Fourier Series</a></span>
+<br /><span class="sectionToc" >3.2  <a 
+href="HigherMathematicsIILectureBookch3.html#x5-760003.2" id="QQ2-5-99">Functions with Arbitrary Periods</a></span>
+<br /><span class="sectionToc" >3.3  <a 
+href="HigherMathematicsIILectureBookch3.html#x5-800003.3" id="QQ2-5-106">Forced Oscillations</a></span>
+<br /><span class="sectionToc" >3.4  <a 
+href="HigherMathematicsIILectureBookch3.html#x5-810003.4" id="QQ2-5-107">Approximation by Trigonometric Polynomials</a></span>
+<br /><span class="sectionToc" >3.5  <a 
+href="HigherMathematicsIILectureBookch3.html#x5-820003.5" id="QQ2-5-108">Sturm–Liouville Problems</a></span>
+<br /><span class="sectionToc" >3.6  <a 
+href="HigherMathematicsIILectureBookch3.html#x5-850003.6" id="QQ2-5-111">Generalised Fourier Series</a></span>
+<br /><span class="sectionToc" >3.7  <a 
+href="HigherMathematicsIILectureBookch3.html#x5-870003.7" id="QQ2-5-113">Fourier Integrals</a></span>
+<br /><span class="sectionToc" >3.8  <a 
+href="HigherMathematicsIILectureBookch3.html#x5-900003.8" id="QQ2-5-117">Cosine and Sine Transforms</a></span>
+<br /><span class="sectionToc" >3.9  <a 
+href="HigherMathematicsIILectureBookch3.html#x5-930003.9" id="QQ2-5-120">Fourier Transform: Discrete and Fast</a></span>
+<br /><span class="chapterToc" >4 <a 
+href="HigherMathematicsIILectureBookch4.html#x6-980004" id="QQ2-6-125">Partial Differential Equations</a></span>
+<br /><span class="sectionToc" >4.1  <a 
+href="HigherMathematicsIILectureBookch4.html#x6-990004.1" id="QQ2-6-126">Introduction and Concepts</a></span>
+<br /><span class="sectionToc" >4.2  <a 
+href="HigherMathematicsIILectureBookch4.html#x6-1010004.2" id="QQ2-6-128">Vibrating String - The Wave Equation</a></span>
+<br /><span class="sectionToc" >4.3  <a 
+href="HigherMathematicsIILectureBookch4.html#x6-1040004.3" id="QQ2-6-132">Separation of Variables</a></span>
+<br /><span class="sectionToc" >4.4  <a 
+href="HigherMathematicsIILectureBookch4.html#x6-1150004.4" id="QQ2-6-145">The Wave Equation - D’Alembert’s Solution</a></span>
+</div>
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+<!--l. 8--><p class="noindent" >
+                                                                                
+                                                                                
+</p>
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+<!--l. 12--><p class="noindent" >
+                                                                                
+                                                                                
+</p>
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ 
+</body> 
+</html>
+                                                                                
+
+
